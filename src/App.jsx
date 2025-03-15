@@ -8,6 +8,8 @@ export default function App() {
 
       const response = await axios.post("https://backend-eef5.onrender.com/login", { username });
       console.log(response.data);
+      setUsername("")
+    alert("success")
   
   }
 
